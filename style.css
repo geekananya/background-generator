@@ -18,7 +18,7 @@ h1{
     text-align: center;
     margin-top: 25vh;
 }
-input{
+input{ 
     width: 75px;
     /* border-style: none; */
     border-color: rgba(58, 37, 37, 0.5);
@@ -34,4 +34,10 @@ input::-webkit-color-swatch:hover
 }
 p{
     margin: 17px;
+}
+
+.merged{
+    display: flex;
+    justify-content: center;
+    align-items: center;        /*if not done, default is stretch and copy button stretches*/
 }
